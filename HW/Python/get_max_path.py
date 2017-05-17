@@ -1,4 +1,8 @@
 #!/usr/bin/python
+
+#Time Complexity: O(log(n))
+#Space Complexity: O()
+
 #Recursive problem
 #We discussed this one together briefly
 
@@ -56,6 +60,7 @@ def get_max_path(grid, x, y):
     if(y < y_size - 1):
         pathD, down_return = get_max_path(grid, x, y + 1)
 
+    #see which path has the max weight so far
     if(right_return > down_return):
         max = right_return
         path = "right " + pathR
