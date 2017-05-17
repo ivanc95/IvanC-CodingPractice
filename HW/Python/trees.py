@@ -1,3 +1,4 @@
+#!/usr/bin/python
 #Given code establishing the Node class
 class Node:
 	def __init__(self, data):

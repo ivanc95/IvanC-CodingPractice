@@ -1,3 +1,4 @@
+#!/usr/bin/python
 #Print out all subsets of a set
 #eg
 #{x,y} ==> {{}, {x}, {y}, {x,y}} Remember that we are working with sets so {y,x} is not different from {x, y}
